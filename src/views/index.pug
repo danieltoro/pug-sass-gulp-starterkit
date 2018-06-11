@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+		link(rel='stylesheet', href='css/bootstrap.css')
+		link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.0.13/css/all.css', integrity='sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp', crossorigin='anonymous')
+		link(rel='stylesheet', href='css/main.css')
+
+	body
+		include layout/navbar
+
+		// Home
+		header#home-section
+			.dark-overlay
+				.home-inner
+					.container
+						.row
+							.col-lg-8
+								h1.display-4
+								| Lorem 
+								strong ipsum 
+								|  dolor.
+								// Item
+								.d-flex.flex-row
+								.p-4
+										i.fas.fa-certificate
+								.p-4
+										| Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum a dolore illo tempora, officiis repudiandae incidunt, beatae dignissimos assumenda quas tempore aspernatur explicabo dicta. Facere optio necessitatibus provident tenetur?
+								// Item
+								.d-flex.flex-row
+								.p-4
+										i.fas.fa-certificate
+								.p-4
+										| Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum a dolore illo tempora, officiis repudiandae incidunt, beatae dignissimos assumenda quas tempore aspernatur explicabo dicta. Facere optio necessitatibus provident tenetur?
+								// Item
+								.d-flex.flex-row
+								.p-4
+										i.fas.fa-certificate
+								.p-4
+										| Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum a dolore illo tempora, officiis repudiandae incidunt, beatae dignissimos assumenda quas tempore aspernatur explicabo dicta. Facere optio necessitatibus provident tenetur?
+							.col-lg-4
+								.card.text-center(style='background-color: #c0392b')
+									.card-body
+										h3 Lorem, ipsum.
+										p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										form
+											.form-group
+												input.form-control.form-control-lg(type='text', placeholder='Username')
+											.form-group
+												input.form-control.form-control-lg(type='password', placeholder='Password')
+											.form-group
+												input.form-control.form-control-lg(type='password', placeholder='Confirm Password')
+											input.btn.btn-outline-light.btn-block(type='submit', value='Send')
+
+		// Section
+		section#info-head-section
+			.container
+				.row
+					.col.text-center
+						.p-5
+							h1.display-4 Info
+							p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis culpa sequi quibusdam mollitia, incidunt fugit error. Nam facilis repellat doloribus? Odio, animi. Porro reiciendis fuga doloribus eveniet animi numquam earum?
+							button
+
+
+
+
+
+	// jQuery first, then Popper.js, then Bootstrap JS
+	script(src='js/jquery.min.js')
+	script(src='js/popper.min.js')
+	script(src='js/bootstrap.min.js')

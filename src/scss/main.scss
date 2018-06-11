@@ -1,0 +1,33 @@
+@import 'custom-variables';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'custom-styles';
+
+.navbar {
+    border-bottom: $red 3px solid;
+    opacity: .7;
+}
+#home-section {
+    background: url('/assets/img/takhi-background.jpg') no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.home-inner {
+    padding: 150px;
+}
+
+@media (max-width: 992px) {
+    .home-inner {
+        padding: 100px;
+    }
+}
